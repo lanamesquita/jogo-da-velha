@@ -1,57 +1,63 @@
-# 🌟 Template Mei Caminho Andado: Next.js + Docker + VSCode + GitHub Codespaces
+# 🎮 Tutorial React: Jogo da Velha (Tic-Tac-Toe)
 
-Este repositório é um **template pronto para uso** no desenvolvimento de aplicações React com **Next.js**, preparado para **ambientes de desenvolvimento com GitHub Codespaces** e **containers DevContainer**.
+Este repositório serve como **material de apoio e acompanhamento** do tutorial oficial do React para construção de um jogo da velha interativo:  
+📚 [Tutorial oficial em português](https://pt-br.react.dev/learn/tutorial-tic-tac-toe)
 
-Inclui configurações otimizadas de:
+## ✨ Objetivo
 
-- Ambiente com **Node.js**, **Zsh**, **Oh My Zsh** e **plugins**.
-- Extensões e configurações do **VSCode** para produtividade.
-- Suporte a **verificação ortográfica**, **formatação automática** e **análise de código**.
-- Ferramentas de integração com Git, Docker e GitHub Actions.
+- Compreender os conceitos básicos de **componentes**, **props**, **estado** e **manipulação de eventos** no React.
+- Construir passo a passo uma aplicação React funcional e interativa.
+- Explorar os fundamentos da **imersão em componentes** e **imparcialidade funcional** no código.
 
-> **Foco:** JavaScript com Next.js e Material UI. TypeScript pode ser habilitado com ajustes.
+## 🛠️ Como utilizar este repositório
 
----
+1. **Instale as dependências:**
 
-## 🚀 Começando
+```bash
+npm install
+```
 
-### ✅ Pré-requisitos
-
-Para rodar localmente:
+2. **Execute o projeto localmente:**
 
 ```bash
 npm run dev
 ```
 
-### 🧱 Estrutura do Container
-Este repositório já inclui um DevContainer configurado com:
+3. Acesse `http://localhost:3000` no navegador.
 
-- Node.js + Common Utilities
-- Zsh + Oh My Zsh + Plugins
-- Docker CLI
-- GitHub CLI (gh)
-- Extensões de VSCode úteis para produtividade
 
-Recrie o container após alterações com:
+Faça alguns ajustes de código da versão do tutorial para este template.
 
-```bash
-Ctrl+Shift+P → "Codespaces: Rebuild Container"
-```
+---
 
-### 📦 🔍 Linters e Validadores
-Este template já vem com:
-- Prettier: formatação automática ao salvar
-- SonarLint: análise de código e segurança
-- Code Spell Checker: correção ortográfica para en, pt, pt_BR
-- Configurações incluídas em .vscode/settings.json.
+## 🧠 Conceitos abordados
 
-### 🐳 Docker & Dev Containers
-Ambiente isolado com as mesmas dependências para todos os devs:
+Durante o tutorial, você aprenderá sobre:
 
-- Configurado via .devcontainer/devcontainer.json
-- Suporte a rebuild de container
-- Plugins como zsh-autosuggestions e fast-syntax-highlighting
+- JSX
+- Props e composição de componentes
+- Estado com `useState`
+- Atualizações imutáveis
+- Key e listas
+- Lifting State Up
+- Verificação de vitória e histórico de jogadas
 
-### 📁 Git & .gitignore
-Modelo de .gitignore baseado no arquivo oficial do React, adaptado para projetos Next.js.
+---
 
+## 🧪 Dicas para aprofundamento
+
+- Modifique o layout e estilos usando CSS.
+- Implemente funcionalidades extras: reiniciar jogo, placar, modo vs CPU.
+- Refatore o projeto com **TypeScript** ou **Redux**, como exercício.
+
+---
+
+## 🤝 Contribuição
+
+Este repositório é voltado para fins educativos. Fique à vontade para forkar, melhorar ou sugerir alterações.
+
+---
+
+## 🧑‍🏫 Créditos
+
+Material baseado no [Tutorial oficial do React](https://pt-br.react.dev/learn/tutorial-tic-tac-toe).
